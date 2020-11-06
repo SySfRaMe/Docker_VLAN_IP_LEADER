@@ -2,7 +2,7 @@
 #Hello and welcome
 This is my controlled enviorriment for developing and fix ip address for my docker cluster
 Now first the problem:
-Please see <a href='fig1.png?raw=true'>fig1.png</a>
+Please see <a href='fig1.png'>fig1.png</a>
 Fix1 shows a setup that is vulnerable if the first node (x.x.10.10) is lost/braks down etc.
 I would like to have 1 ip address when talking to my swarm. I know when using a overlay network i am able to ”just” browse to x.x.10.11 or x.x.10.12 and it would still work but this is not a wanted behavior because the ip is hardcoded into other services outside the swarm and therefore not dynamic changed. On of many examples is the Route pri DNS as show inf <a href='fig1.png'>fig1.png</a>.
 
