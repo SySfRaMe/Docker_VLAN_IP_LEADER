@@ -4,7 +4,7 @@ This is my controlled enviorriment for developing and fix ip address for my dock
 Now first the problem:
 Please see <a href='fig1.png'>fig1.png</a>
 Fix1 shows a setup that is vulnerable if the first node (x.x.10.10) is lost/braks down etc.
-I would like to have 1 ip address when talking to my swarm. I know when using a overlay network i am able to ”just” browse to x.x.10.11 or x.x.10.12 and it would still work but this is not a wanted behavior because the ip is hardcoded into other services outside the swarm and therefore not dynamic changed. On of many examples is the Route pri DNS as show inf <a href='fig1.png'>fig1.png</a>.
+I would like to have 1 ip address when talking to my swarm. I know when using a overlay network i am able to ”just” browse to x.x.10.11 or x.x.10.12 and it would still work but this is not a wanted behavior because the ip is hardcoded into other services outside the swarm and therefore not dynamic changed. On of many examples is the Route pri DNS as show in <a href='fig1.png'>fig1.png</a>.
 
 Idea 1:
 Creating a script to run on each host to identify if it is currently the leader of the swarm. then based on this information activate a fixed virtual ip address on that host.
