@@ -8,7 +8,7 @@ I would like to have 1 ip address when talking to my swarm. I know when using a 
 
 Idea 1:
 Creating a script to run on each host to identify if it is currently the leader of the swarm. then based on this information activate a fixed virtual ip address on that host.
-Secondly make sure that all incomming trafix to that virtual ip is redirected to the localhost or the ip attached to that host.
+Secondly make sure that all incomming trafic to that virtual ip is redirected to the localhost or the ip attached to that host.
 The redirect should be port transparent.
 when all is working then i would like the whole thing wrapped around an container and shipped global to all the notes ( I know it is not required but i like to make as much as container driven as possible for further maintanance.)
 see <a href='fig2.png'>fig2.png</a>.
