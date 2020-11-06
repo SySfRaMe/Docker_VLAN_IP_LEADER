@@ -12,10 +12,9 @@ Secondly make sure that all incomming trafic to that virtual ip is redirected to
 The redirect should be port transparent.
 when all is working then i would like the whole thing wrapped around an container and shipped global to all the notes ( I know it is not required but i like to make as much as container driven as possible for further maintanance.)
 see <a href='fig2.png'>fig2.png</a>.
+
 Idea 2:
 to be invistegated: can MacVlan solve this issue more simple
-
-
 
 Thank you for your time
 Feel free to suggest solutions or point me in the right direction of my goal.
